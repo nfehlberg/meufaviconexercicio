@@ -1,0 +1,89 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: #ffff;
+  margin: auto;
+  justify-content: center;
+  width: 102.4rem;
+  font-family: 'Open Sans', sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 6.4rem;
+  height : 48.6rem; 
+  width: 62.6rem;
+}
+.imgmain {
+  margin-bottom: 3.2rem;
+}
+h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #3f3d56;
+  font-size: 3.2rem;
+  text-shadow: 0rem 0.3rem rgba(0, 0, 0, 0.138);
+  text-align: center;
+}
+span {
+  color: #ee24ff;
+}
+
+.text span {
+  color: #3f3d56;
+}
+
+p {
+  margin-top: 1.6rem;
+  width: fit-content;
+  text-align: center;
+  justify-content: center;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 54rem;
+  color: #828282;
+  font-weight: 400;
+}
+
+footer {
+  margin-top: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  border: 0.1rem solid #ffff;
+  filter: drop-shadow(0rem 0.3rem rgba(0, 0, 0, 0.138));
+  width: 39.1rem;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 4.2rem;
+  margin-top: 1rem;
+
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #3f3d56;
+  font-weight: 700;
+}
+
+ul li a:hover {
+  opacity: 50%;
+  transition: 200ms;
+}
+
